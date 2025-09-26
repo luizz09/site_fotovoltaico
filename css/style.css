@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid black;
+}
+  
+
+p{
+    text-indent: 1.2rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(111, 73, 199);
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 15px 0px;
+    height: 50%;
+}
+
+/* footer{
+    background-color: black;
+    width: 100%;
+    padding: 15px 0px;
+    height: 50%;
+} */
+
+.placa_solar img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+}
