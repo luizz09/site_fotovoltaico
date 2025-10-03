@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/placa.js"defer></script>
     <title>Sistemas Fotovoltaicos</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="./index.html">Principal /</a>
-            <a href="./html/efeito.html">Efeito /</a>
-            <a href="./html/componentes.html">Componentes /</a>
-            <a href="./html/tijucas.html">Em Tijucas</a>
+            <a class="branco" href="./index.html">Principal</a><span class="barra"> /</span>
+            <a class="branco" href="./html/efeito.html">Efeito</a><span class="barra"> /</span>
+            <a class="branco" href="./html/componentes.html">Componentes</a><span class="barra"> /</span>
+            <a class="branco" href="./html/tijucas.html">Em Tijucas</a>
         </nav>
     </header>
     <main>
         <h2>Introdução</h2>
         <p><b>A produção</b> de energia solar fotovoltaica nos mostra uma forma de transformar a luz do sol em eletricidade de maneira direta, dispensando componentes mecânicos. Isso a mantém como uma alternativa energética limpa, sustentável e com um impacto ambiental bastante reduzido. Inclusive, graças à evolução tecnológica e ao aumento da produção, os valores têm apresentado um declínio constante, o que faz com que os sistemas solares se tornem progressivamente mais acessíveis e economicamente viáveis.</p>
-        <p><b>Também</b> é importante notar que o Brasil se sobressai por deter um dos maiores potenciais globais de energia solar, apresentando altos níveis de irradiação solar que se estendem por quase todo o país durante o ano todo. Essa característica, combinada com a redução no custo dos equipamentos e as estratégias de promover, tem estimulado o uso cada vez maior dessa tecnologia, auxiliando não só na variação da estrutura elétrica brasileira, mas também no suporte ao avanço sustentável.</p>
+        <p><b>Também</b> é importante notar que o Brasil se sobressai por deter um dos maiores potenciais globais de energia solar, apresentando altos níveis de irradiação solar que se estendem por quase todo o país durante o ano todo. Essa característica, combinada com a redução no custo dos equipamentos e as estratégias de promover, tem estimulado o uso cada vez maior dessa tecnologia, auxiliando não só na variação da estrutura elétrica brasileira, mas também no suporte ao avanço sustentável.</p><br>
         <div class="placa_solar">
             <img src="img/placa_solar.jpg" alt="Imagem de Uma Placa Solar"><br>
             <small>Imagem de: <a href="https://moduloenergia.com/paineis-solares-o-que-e/">Módulo Energia</a></small>
-        </div>
+        </div><br>
+        <h2>Calcule quantas placa da Intelbras você precisa (Modelo EMSB 555 HC):</h2>
+        <label for="energiaMensal">Digite o seu consumo mensal de energia (em kWh):</label><br>
+        <input type="number" name="" id="energiaMensal"><br>
+
+        <button onclick="principal()">Calcular</button>
+        <br>
+        <div id="resposta"></div>
     </main>
     <footer>
         by Luiz &copy; &trade;

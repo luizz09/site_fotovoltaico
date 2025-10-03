@@ -15,6 +15,13 @@ p{
     font-size: 1.2rem;
 }
 
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 15px 0px;
+    height: 50%;
+}
+
 body{
     text-align: center;
     background-color: rgb(111, 73, 199);
@@ -23,26 +30,93 @@ body{
 }
 
 a{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+button,input{
     color: white;
-    text-decoration: none;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 8px;
 }
 
-header{
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    padding: 15px 0px;
-    height: 50%;
+
+.branco{
+    color: white;
+    text-decoration: underline;
 }
 
-/* footer{
+.branco:hover{
+    transition: ease;
+    transition-duration: 0.5s;
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+
+.barra{
+    color: white;
+}
+
+footer{
     background-color: black;
     width: 100%;
+    height: 45px;
     padding: 15px 0px;
-    height: 50%;
-} */
+    text-align: center;
+}
 
+.link{
+    padding: 0px;
+    text-decoration: none;
+    padding-bottom: 0px;
+}    
+
+.linkgithub{
+    background-color: rgb(111, 73, 199);
+    display: inline-flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid rgb(150, 148, 148);
+}
+
+.linkgithub img{
+    width: 35px;
+    height: 35px;
+    border-radius: 16px;
+}
+    
+.tijucas img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+}
+    
 .placa_solar img{
     width: 360px;
     height: 360px;
     border-radius: 16px;
 }
+
+.efeito_fotovoltaico img{
+    width: 360px;
+    height: 240px;
+    border-radius: 16px;
+}
+
+.componentes img{
+    width: 360px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+#resposta{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+    
