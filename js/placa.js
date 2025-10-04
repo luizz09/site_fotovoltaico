@@ -16,4 +16,3 @@ function principal(){
     resposta.innerHTML = ``
     resposta.innerHTML += `Você precisa de: ${resultado.toFixed(0)} placas<br>`
 }
-
