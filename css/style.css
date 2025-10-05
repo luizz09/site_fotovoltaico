@@ -111,9 +111,9 @@ footer{
     padding-bottom: 4px;
 }
     
-.tijucas img{
+.tijucas iframe{
     width: 360px;
-    height: 290px;
+    height: 360px;
     border-radius: 16px;
 }
     
