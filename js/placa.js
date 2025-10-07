@@ -13,6 +13,15 @@ function principal(){
     let energiaMensal = Number(document.getElementById(`energiaMensal`).value)
     let resultado = calcular(energiaMensal, placa)
 
-    resposta.innerHTML = ``
-    resposta.innerHTML += `Você precisa de: ${resultado.toFixed(0)} placas<br>`
+    if(resultado >= 1){
+        resposta.innerHTML = ``
+        resposta.innerHTML += `Você precisa de: ${resultado.toFixed(0)} placas<br>`
+    }else if(resultado > 0 && resultado < 1){
+        resposta.innerHTML = ``
+        resposta.innerHTML += `Média mensal muito baixa.<br>`
+    }else{
+        resposta.innerHTML = ``
+        resposta.innerHTML += `Insira um número válido.<br>`
+    }
+    
 }
