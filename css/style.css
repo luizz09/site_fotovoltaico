@@ -5,7 +5,7 @@
 
 hr{
     border: none;
-    border-top: 2px solid black;
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
 p{
@@ -63,7 +63,7 @@ footer{
 
 .branco{
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .branco:hover{
@@ -146,6 +146,21 @@ footer{
 .pergunta{
     border: 2px solid black;
     padding: 3px;
+    display: inline-block;
+}
+
+.pergunta_menor{
+    border: 2px solid black;
+    padding: 3px;
+    display: inline-block;
+    text-indent: 0px;
+}
+
+.resp{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 5px;
+    text-indent: 2px;
 }
 
 .ultimo{
