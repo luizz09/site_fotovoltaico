@@ -23,22 +23,22 @@
         <br>
         <p class="pergunta">Como funciona a entrada digital e analógica (binário, físico e volts)?</p>
         <p class="resp">- A entrada digital, como binário funciona de modo 0 ou 1 (HIGH OU LOW), de modo físico funcionaria como um interruptor, onde você pode somente ligar ou desligar, já em volts, seria por exemplo igual 0.5 volts desligado (0) e 5 volts ligado (1).</p>
-        <p class="resp">- Na entrada analógica, cada valor de tensão seria convertido em um número de 0 até 1023, de modo físico seria de 0 a 100% de algo, permitindo medir com precisão, e em volts, 0 a 5 volts igual na entrada digital.</p>
+        <p class="resp">- Na entrada analógica, cada valor de tensão seria convertido em um número de 0 até 1023, de modo físico seria de 0 a 100% de algo, permitindo medir com precisão, e em volts, lê qualquer valor de 0 a 5 volts.</p>
         <br>
         <hr>
         <br>
         <p class="pergunta">Como funciona a saída digital e analógica (binário, físico e volts)?</p>
-        <p class="resp">- A saída digital, envia somente dois estados HIGH ou LOW, ou seja, fisicamente um exemplo seria uma lâmpada que caso estivesse como HIGH estaria ligada e low desligada, enviaria de 0 a 5 volts.</p>
-        <p class="resp">- Na saída analógica envia valores de 0 a 1023, e fisicamente pode por exemplo, controlar a intensidade de um dispositivo (como o brilho de um led por exemplo), em volts varia de 0 volts a 5 volts permitindo valores intermédiarios.</p>
+        <p class="resp">- A saída digital, envia somente dois estados HIGH ou LOW, ou seja, fisicamente um exemplo seria uma lâmpada que caso estivesse como HIGH estaria ligada e LOW desligada, enviando 5 ou 0 volts.</p>
+        <p class="resp">- Na saída analógica envia valores de 0 a 1023, e fisicamente pode por exemplo, controlar a intensidade de um dispositivo (como o brilho de um led por exemplo), em volts varia de 0 volts a 5 volts permitindo valores intermediários.</p>
         <br>
         <hr>
         <br>
-        <p class="pergunta_menor">O que é o arduíno?</p>
+        <p class="pergunta">O que é o arduíno?</p>
         <p class="resp">- O arduíno é uma plataforma de prototipagem eletrônica que permite integrar o hardware com o software de forma simples e acessível.</p>
         <br>
         <hr>
         <br>
-        <p class="pergunta_menor">O que é um microcontrolador?</p>
+        <p class="pergunta">O que é um microcontrolador?</p>
         <p class="resp">- Microcontrolador é como se fosse o cérebro do arduíno, basicamente um computador dentro de um pequeno chip, que processa o código enviado a placa.</p>
         <br>
         <hr>
@@ -66,8 +66,49 @@
         <br>
         <hr>
         <br>
-        <p class="pergunta_menor">O que é um multímetro?</p>
-        <p class="resp">- O multímetro é um instrumento utilizado para medir grandezas elétricas, ele combina várias funções em um único aparelho, sendo capaz de medir tensão elétrica (volts), corrente elétrica (amperes) e resistência elétrica (ohms).</p>
+        <p class="pergunta">O que é um multímetro?</p>
+        <p class="resp">- O multímetro é um instrumento utilizado para medir grandezas elétricas.</p>
+        <br>
+        <hr>
+        <br>
+        <p class="pergunta">Quais as grandezas que ele consegue medir?</p>
+        <p class="resp">- Ele combina várias funções em um único aparelho, sendo capaz de medir tensão elétrica (volts), corrente elétrica (ampères) e resistência elétrica (ohms).</p>
+        <br>
+        <hr>
+        <br>
+        <p class="pergunta">O que é escala de medição?</p>
+        <p class="resp">- A escala de medição é a faixa de valores que você escolhe no multímetro para garantir que  a medida seja correta. Por exemplo, se for medir uma bateria de 9V, você deve escolher uma escala acima desse valor, como 20V por exemplo, assim a leitura será mais precisa do que caso fosse utilizar uma faixa de 100V. Porém, se escolher uma faixa menor, o multímetro pode mostrar erro, valores distorcidos, ou nem medir.</p>
+        <br>
+        <hr>
+        <br>
+        <p class="pergunta">Qual a lei que o multímetro aplica para realizar as medidas?</p>
+        <p class="resp">- O multímetro utiliza uma lei chamada lei de Ohm:</p>
+        <img class="lei_ohm" src="../img/lei_de_ohm.png" alt="Lei de Ohm">
+        <p class="resp">V = Tensão (medida em Volts)</p>
+        <p class="resp">R = Resistência (medida em Ohms)</p>
+        <p class="resp">I = Corrente (medida em ampères)</p>
+        <p class="resp">- E ele utiliza a lei principalmente quando precisa medir a resistência, corrente ou tensão.</p>
+        <br>
+        <hr>
+        <br>
+        <p class="pergunta">O que é teste de continuidade e para que serve?</p>
+        <p class="resp">- O teste de continuidade é uma função no multímetro que serve para verificar se existe passagem de corrente entre dois pontos, ou seja, para saber se o caminho elétrico está completo, quando tem continuidade, o multímetro indica isso e geralmente emite um apito.</p>
+        <br>
+        <hr>
+        <br>
+        <p class="pergunta">Como é a medição de uma resistência no resistor?</p>
+        <p class="resp">- Para medir a resistência, o multímetro deve estar no modo Ω (ohms), e o componente deve estar desconectado do circuito, ou pelo menos isolado. Você precisará encostar uma ponta de medição em cada terminal do resistor e o valor da resistência aparecerá.</p>
+        <br>
+        <hr>
+        <br>
+        <p class="pergunta">Como é a medição de uma tensão no circuito com resistor e led?</p>
+        <p class="resp">Para medir a tensão, o multímetro deverá ser colocado no modo V (volts), e a medição é feita colocando o multímetro ligado aos dois lados do componente. Você deverá ligar o circuito (ele deve estar energizado), colocar a ponta vermelha no lado positivo do componente ou da fonte e a ponta preta no lado negativo (GND), e então o valor da tensão aparecerá no visor.</p>
+        <br>
+        <hr>
+        <br>
+        <p class="pergunta">Como é a medição de uma corrente elétrica no circuito?</p>
+        <p class="resp">Para medir corrente, o multímetro deve ser colocado em série com o circuito, ou seja, a corrente precisa passar através do multímetro. Coloque o multímetro no modo A (ampères), abra o circuito em algum ponto, conecte uma ponta de medição em uma parte e a outra no ponto interrompido, formando um caminho, depois ligue o circuito para a corrente passar pelo multímetro e ele irá exibir o valor da corrente.</p>
+        <hr class="ultimo">
     </main>
     <footer>
         <div class="linkgithub">
