@@ -144,7 +144,7 @@ footer{
 
 .componentes img{
     width: 360px;
-    height: 170px;
+    height: 180px;
     border-radius: 16px;
 }
 
@@ -177,6 +177,13 @@ footer{
 .ultimo{
     padding-bottom: 4px;
 }
+
+.videosyt{
+    width: 350px;
+    height: 180px;
+    border-radius: 16px;
+}
+
 
 #resposta{
     color: rgb(0, 0, 0);
