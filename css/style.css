@@ -184,6 +184,17 @@ footer{
     border-radius: 16px;
 }
 
+.quadrado{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+}
+
+.retangular{
+    width: 360px;
+    height: 530px;
+    border-radius: 16px;
+}
 
 #resposta{
     color: rgb(0, 0, 0);
