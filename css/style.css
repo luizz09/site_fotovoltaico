@@ -196,6 +196,18 @@ footer{
     border-radius: 16px;
 }
 
+.tensao{
+    width: 360px;
+    height: 290px;
+    border-radius: 16px;
+}
+
+.grafico{
+    width: 360px;
+    height: 200px;
+    border-radius: 16px;
+}
+
 #resposta{
     color: rgb(0, 0, 0);
     font-size: 1.3rem;
